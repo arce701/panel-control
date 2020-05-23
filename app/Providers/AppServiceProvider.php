@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use App\Sortable;
 use Illuminate\Pagination\LengthAwarePaginator;
+use Illuminate\Routing\UrlGenerator;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
 
@@ -12,10 +13,15 @@ class AppServiceProvider extends ServiceProvider
     /**
      * Bootstrap any application services.
      *
+     * @param UrlGenerator $url
      * @return void
      */
-    public function boot()
+    public function boot(UrlGenerator $url)
     {
+        if (env('REDIRECT_HTTPS')) {
+            $url->formatScheme('https');
+        }
+
         Schema::defaultStringLength(191);
 
         $this->app->bind(LengthAwarePaginator::class, \App\LengthAwarePaginator::class);

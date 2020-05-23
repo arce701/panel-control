@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23f4d8b6-aa35-48c9-b454-beb56b365cb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/debugbar/X30243822061c04cf92e86476f0ee936b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/debugbar/X5a518f7f183dc7ca3c70d3f2f3d8ca62.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/debugbar/X5ffb7fd8c34240115bded663309e574f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/debugbar/X8e2bfb635bdda4d826d812396e0a619a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/debugbar/X91a5c357bf94712c223b0c0619803685.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xedc7d31727a292c61b346b0a0501fe99.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/NhPk530dEVXgAnMeIKNUJ7UYq0AsK4zW1wy2w2Qt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/042d1b0e12fc5f0e1417791b85ed7f8db3e8fd72.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/295318693b45db97eb9d62589683ecfffa3e8859.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/42bcb73155aed91e7249b931792e65d6dfb2965b.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/4aab32268080da1fd78fc9513d5bbb8acfe9114f.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/8f2f0666f237c6b28c1b319716a1ce687728a099.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/9322104e288ba9fc9074cddfb7c25b80a7506365.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/98de8eb0a6b90dfd1d3a31167a6c15d759d77d3b.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/ae34f2819cf40eb3f4b824b5bfb738c16248cf14.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/be9d91bcf90d75a26a26591a333a8002cc6a1455.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +128,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/storage/logs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -154,14 +139,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\xampp\htdocs\panel\public" />
-      <recent name="D:\xampp\htdocs\panel\public\js" />
-      <recent name="D:\xampp\htdocs\panel" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\xampp\htdocs\panel\app\Filters" />
       <recent name="D:\xampp\htdocs\panel\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\panel\storage\logs" />
+      <recent name="D:\xampp\htdocs\panel\storage\framework" />
+      <recent name="D:\xampp\htdocs\panel\storage\app" />
+      <recent name="D:\xampp\htdocs\panel\public" />
+      <recent name="D:\xampp\htdocs\panel\public\js" />
     </key>
   </component>
   <component name="RunManager">
@@ -222,7 +209,7 @@
       <workItem from="1588260330781" duration="16395000" />
       <workItem from="1588288924442" duration="1214000" />
       <workItem from="1588632276763" duration="697000" />
-      <workItem from="1590262652426" duration="1934000" />
+      <workItem from="1590262652426" duration="3997000" />
     </task>
     <servers />
   </component>
@@ -249,6 +236,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586572384269" />
+    <state x="464" y="186" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590265505112">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="464" y="186" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1590265505112" />
     <state x="527" y="10" key="#com.intellij.ide.util.MemberChooser" timestamp="1587914516528">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

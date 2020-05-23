@@ -34,7 +34,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        if (env('REDIRECT_HTTPS')) {
+            $this->app['request']->server->set('HTTPS', true);
+        }
+
         $this->app->bind(Sortable::class, function ($app) {
             return new Sortable(request()->url());
         });

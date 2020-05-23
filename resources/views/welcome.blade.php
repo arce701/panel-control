@@ -8,6 +8,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Laravel</h1>
+<h1>Laravel</h1>
+@php($secure='https://')
+@if(! is_null($secure))
+    {{  $secure ? 'https://' : 'http://' }}
+@endif
 </body>
 </html>
